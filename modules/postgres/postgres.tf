@@ -11,7 +11,6 @@ resource "google_sql_database_instance" "instance" {
 
   settings {
     tier = "db-f1-micro"
-    activation_policy = "ON_DEMAND"
   }
 
   deletion_protection  = "true"
