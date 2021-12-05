@@ -19,4 +19,3 @@ module "app_engine" {
   project = var.project
   region = var.region
 }
-
