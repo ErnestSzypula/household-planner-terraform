@@ -13,9 +13,10 @@ module "secrets" {
   project           = var.project
 }
 
-module "frontend" {
-  source = "./modules/frontend"
+module "app_engine" {
+  source = "./modules/app_engine"
 
   project = var.project
+  region = var.region
 }
 
