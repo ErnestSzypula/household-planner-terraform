@@ -13,3 +13,9 @@ module "secrets" {
   project           = var.project
 }
 
+module "frontend" {
+  source = "./modules/frontend"
+
+  project = var.project
+}
+
