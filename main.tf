@@ -19,3 +19,9 @@ module "app_engine" {
   project = var.project
   region = var.region
 }
+
+module "image_bucket" {
+  source = "./modules/image_bucket"
+
+  image-bucket-name = var.image_bucket_name
+}

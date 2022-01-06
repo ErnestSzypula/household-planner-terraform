@@ -11,3 +11,7 @@ variable "zone" {
 }
 
 variable "database_password" {}
+
+variable "image_bucket_name" {
+  default = "image-household-planner-333519"
+}
