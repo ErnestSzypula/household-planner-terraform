@@ -11,6 +11,7 @@ module "secrets" {
 
   database_password = var.database_password
   project           = var.project
+  send_grid_api_key = var.send_grid_api_key
 }
 
 module "app_engine" {

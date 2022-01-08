@@ -12,6 +12,8 @@ variable "zone" {
 
 variable "database_password" {}
 
+variable "send_grid_api_key" {}
+
 variable "image_bucket_name" {
   default = "image-household-planner-333519"
 }
