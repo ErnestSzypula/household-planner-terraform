@@ -26,3 +26,8 @@ module "image_bucket" {
 
   image-bucket-name = var.image_bucket_name
 }
+
+
+module "cloud_scheduler" {
+  source = "./modules/cloud_scheduler"
+}
