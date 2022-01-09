@@ -22,4 +22,10 @@ resource "google_app_engine_application_url_dispatch_rules" "web_service" {
     path    = "/*"
     service = "frontend"
   }
+
+  dispatch_rules {
+    domain  = "notifications-dot-household-planner-333519.uc.r.appspot.com"
+    path    = "/*"
+    service = "notifications"
+  }
 }
